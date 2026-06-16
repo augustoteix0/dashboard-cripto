@@ -1,9 +1,10 @@
-import { Dashboard } from "./pages/Dashboard";
-
-export function App() {
+import { BrowserRouter } from "react-router";
+import { Router } from "./router";export function App() {
   return (
-    <div className="p-4">
-      <Dashboard/>
-    </div>
-  )
+    <>
+      <BrowserRouter>        
+          <Router />
+      </BrowserRouter>
+    </>
+  );
 }
