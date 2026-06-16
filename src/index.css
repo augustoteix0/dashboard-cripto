@@ -27,6 +27,11 @@
         color: var(--color-base-text) ;
         -webkit-font-smoothing: antialiased;
     }
+    td {
+        text-align: center;
+        padding: 8px;
+        font-weight: bold;
+    }
 }
 
 @layer components{

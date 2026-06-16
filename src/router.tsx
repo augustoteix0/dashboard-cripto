@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router";
-import { Dashboard } from "./pages/Dashboard";
+import { Dashboard } from "./pages/Dashboard/Dashboard";
 import { Converter } from "./pages/Converter";
 import { Historico } from "./pages/History";
 import { Layout } from "./layout";
