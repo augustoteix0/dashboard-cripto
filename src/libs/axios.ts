@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export const api = axios.create({
-    baseURL:'https://api.open-meteo.com/v1/'
+    baseURL:'https://api.coingecko.com/api/v3'
 })
 

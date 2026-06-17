@@ -32,6 +32,12 @@
         padding: 8px;
         font-weight: bold;
     }
+    input {
+        background-color:#18181B;
+        border-radius: 5px;
+        width: 200px;
+        padding: 10px;
+    }
 }
 
 @layer components{

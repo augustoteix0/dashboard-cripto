@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router";
 import { Dashboard } from "./pages/Dashboard/Dashboard";
 import { Converter } from "./pages/Converter";
-import { Historico } from "./pages/History";
 import { Layout } from "./layout";
 
 export function Router() {
@@ -10,7 +9,6 @@ export function Router() {
             <Route path='/' element={<Layout/>}>
                 <Route path="/" element={<Dashboard/>} />
                 <Route path="/converter" element={<Converter/>} />
-                <Route path="/historico" element={<Historico/>} />
             </Route>
         </Routes>
     )
